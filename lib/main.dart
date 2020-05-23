@@ -3,7 +3,9 @@
 //import 'package:animationsapp/exemples/02_basics_ani_b.dart';
 //import 'package:animationsapp/exemples/03_tweenbuilder_ani.dart';
 //import 'package:animationsapp/exemples/04_construct_ani.dart';
-import 'package:animationsapp/exemples/05_animation_build_ani.dart';
+//import 'package:animationsapp/exemples/05_animation_build_ani.dart';
+
+import 'package:animationsapp/exemples02/01_logo_app.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Colors.blue,
       ),
-      home: AnimateBuilderAni(),
+      home: LogoApp(),
     );
   }
 }
